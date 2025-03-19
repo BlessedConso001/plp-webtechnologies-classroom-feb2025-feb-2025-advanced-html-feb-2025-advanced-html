@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Innovations</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h1>Top Tech Innovations</h1>
+    <ol type="i">
+        <li>Artificial Intelligence</li>
+        <li>Blockchain Technology</li>
+        <li>Quantum Computing</li>
+        <li>Renewable Energy Solutions</li>
+        <li>Biotechnology Advances</li>
+    </ol>
+
+    <!-- External Image -->
+    <h1>External Image of Innovation</h1>
+    <img src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=600" 
+         alt="AI-powered robotic arm in action." width="300" height="200">
+
+    <!-- Contact Table -->
+    <h2>Technology Leaders Contact Table</h2>
+    <table border="">
+        <caption><strong>Industry Experts</strong></caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address(Company)</th>
+                <th>Mobile</th>
+                <th>Email</th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Elon</td>
+                <td>SpaceX</td>
+                <td>0712345678</td>
+                <td>elon@spacex.com</td>
+            </tr>
+            <tr>
+                <td>Sundar</td>
+                <td>Google</td>
+                <td>0723456789</td>
+                <td>sundar@google.com</td>
+            </tr>
+            <tr>
+                <td>Tim</td>
+                <td>Apple</td>
+                <td>0734567890</td>
+                <td>tim@apple.com</td>
+            </tr>
+            <tr>
+                <td>Mark</td>
+                <td>Meta</td>
+                <td>0745678901</td>
+                <td>mark@meta.com</td>
+            </tr>
+            <tr>
+                <td>Lisa</td>
+                <td>IBM</td>
+                <td>0756789012</td>
+                <td>lisa@ibm.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Innovation Registration Form</h2>
+    <form>
+        <fieldset>
+            <legend><strong>Innovator Details</strong></legend>
+
+            <!-- Name -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required minlength="3" maxlength="50">
+            <br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Set a password" required minlength="8" 
+                   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password must contain at least one uppercase letter, one lowercase letter, and one number.">
+            <br><br>
+
+            <!-- Date -->
+            <label for="date">Date of Birth:</label>
+            <input type="date" id="date" name="dob" required>
+            <br><br>
+
+            <!-- Dropdown -->
+            <label for="field">Field of Innovation:</label>
+            <select name="field" id="field" required>
+                <option value="">Select your field</option>
+                <option value="AI">Artificial Intelligence</option>
+                <option value="Biotech">Biotechnology</option>
+                <option value="Blockchain">Blockchain</option>
+            </select>
+            <br><br>
+
+            <!-- Gender (Radio Buttons) -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required> 
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required> 
+            <label for="female">Female</label>
+            <br><br>
+
+            <!-- Years of Experience (Radio Buttons) -->
+            <label>Experience in Innovation:</label>
+            <input type="radio" id="below5" name="experience" value="below 5 years" required>
+            <label for="below5">Below 5 years</label>
+            <input type="radio" id="above5" name="experience" value="above 5 years" required>
+            <label for="above5">Above 5 years</label>
+            <br><br>
+
+            <!-- Interests (Checkbox) -->
+            <label>Areas of Interest:</label>
+            <input type="checkbox" id="robotics" name="interest" value="robotics">
+            <label for="robotics">Robotics</label>
+            <input type="checkbox" id="bigdata" name="interest" value="bigdata">
+            <label for="bigdata">Big Data</label>
+            <input type="checkbox" id="cybersecurity" name="interest" value="cybersecurity">
+            <label for="cybersecurity">Cybersecurity</label>
+            <br><br>
+
+        </fieldset>
+        <br>
+
+        <!-- Buttons -->
+        <button type="submit">Register</button>
+        <button type="reset">Clear</button>
+    </form>
+
+    <!-- Multimedia Elements -->
+    <h2>Multimedia Content</h2>
+
+    <!-- Audio Element -->
+    <h3>Podcast on Innovation</h3>
+    <audio controls>
+        <source src="innovation_podcast.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Video Element -->
+    <h3>Tech Conference Highlights</h3>
+    <video controls width="400">
+        <source src="tech_conference.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+</html>
